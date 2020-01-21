@@ -7,3 +7,5 @@ export class MyClass implements MyInterface {
     return x + randomNumber.getRandomNumber() + 2;
   }
 }
+
+import './../shared/MyInterface';
